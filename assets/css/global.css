@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+}
+
+body {
+    background-color: rgba(254, 254, 254, 0.826);
+}
+
+.main {
+    padding: 5rem;
+    margin: .5rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+}
