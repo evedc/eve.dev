@@ -10,26 +10,46 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/acordeon.css">
 </head>
 
 <body>
     <div class="main">
-
-
         <header class="header">
             <img src="assets/img/imgperfil.png" alt="Foto de Perfil Évelim" class="photo">
 
-            <h1 class="title">Olá <br>eu sou a Évelim Dornelles</h1>
+            <h1 class="title">Olá, <br>eu sou a Évelim Dornelles</h1>
 
             <div class="information">
                 <p class="Perfil"> Estudante Ciência da Computação</p>
                 <p class="localizacao"> Rio Grande do Sul - RS</p>
                 <p class="whatsapp"> (53) 99127 - 7491</p>
                 <p class="email"> dorrrnelles@gmail.com</p>
+            </div>
+        </header>
 
+        <section class="acordeon open">
+
+            <button class="trigger" type="button">
+                Idiomas
+            </button>
+
+
+            <div class="content">
+                <div>
+                    <ul>
+                        <li>Português - Fluente/Nativo</li>
+                        <li>Inglês - Básico</li>
+                        <li>Espanhol - Básico</li>
+                        <li>Libras - Básico</li>
+
+                    </ul>
+                </div>
             </div>
     </div>
-    </header>
+    </section>
+
+    <script src="assets/js/acordeon.js"></script>
 </body>
 
 </html>
