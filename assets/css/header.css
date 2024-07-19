@@ -51,6 +51,10 @@
     background-image: url(/assets/img/perfil.png);
 }
 
+.information .linkedin::before {
+    background-image: url(/assets/img/linkedin.png);
+}
+
 .information .whatsapp::before {
     background-image: url(/assets/img/whatsapp.png);
 }
