@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/acordeon.css">
+    <link rel="stylesheet" href="assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/projetos.css">
+    <link rel="stylesheet" href="assets/css/experience.css">
 </head>
 
 <body>
@@ -23,31 +26,96 @@
             <div class="information">
                 <p class="Perfil"> Estudante Ciência da Computação</p>
                 <p class="localizacao"> Rio Grande do Sul - RS</p>
-                <p class="whatsapp"> (53) 99127 - 7491</p>
-                <p class="email"> dorrrnelles@gmail.com</p>
+                <p class="whatsapp">(53) 99127-7491</p>
+                <p class="email">
+                    <a href="mailto:dorrrnelles@gmail.com">
+                        dorrrnelles@gmail.com
+                    </a>
+                </p>
             </div>
         </header>
 
-        <section class="acordeon open">
-
+        <section class="acordeon">
             <button class="trigger" type="button">
-                Idiomas
+                <h2> Idiomas</h2>
             </button>
-
-
             <div class="content">
                 <div>
-                    <ul>
-                        <li>Português - Fluente/Nativo</li>
+                    <ul class="languages">
+                        <li>Português (BR) - Nativo</li>
                         <li>Inglês - Básico</li>
                         <li>Espanhol - Básico</li>
                         <li>Libras - Básico</li>
-
                     </ul>
                 </div>
             </div>
+        </section>
+
+        <section class="acordeon ">
+            <button class="trigger" type="button">
+                <h2> Projetos</h2>
+            </button>
+
+            <div class="content">
+                <ul class="projetos">
+                    <li>
+                        <span class="title github">Agência Digital</span>
+                        <a href="https://github.com/evedc/agencia-digital"
+                            target="_blank">https://github.com/evedc/agencia-digital</a>
+                    </li>
+                    <li>
+                        <span class="title github">Pokedex</span>
+                        <a href="https://github.com/evedc/pokedex" target="_blank">https://github.com/evedc/pokedex</a>
+                    </li>
+                    <li>
+                        <span class="title github">Projeto 3</span>
+                        <a href="www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Cursos Complementares</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <span class="title"> <a href="/assets/img/Certificado FullStack.png" target="_blank">
+                                Programador Web Completo - Do Zero ao FullStack - Genial
+                                Cursos </a></span>
+                    </li>
+
+                    <li>
+                        <span class="title">
+                            <a href="/assets/img/Certificado AWS.png" target="_blank"> AWS Cloud Practitioner Essentials
+                                -
+                                Amazon Web Services (AWS) </a></span>
+                    </li>
+                    </li>
+                    <li>
+                        <span class="title">
+                            <a href="/assets/img/LógicaDeProgramacao.png" target="_blank">
+                                Lógica de Programação - Trybe
+                            </a></span>
+                    </li>
+                    <li>
+                        <span class="title">
+                            <a href="/assets/img/JSdoZero.png" target="_blank">
+                                Javascript do Zero - Trybe
+                            </a></span>
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
     </div>
-    </section>
+
 
     <script src="assets/js/acordeon.js"></script>
 </body>
