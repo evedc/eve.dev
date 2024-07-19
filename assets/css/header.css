@@ -33,30 +33,30 @@
     content: '';
     width: 24px;
     height: 24px;
-    background-image: url(/img/perfil.png);
+    background-image: url(img/perfil.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-right: .5rem;
 }
 
 .information .email::before {
-    background-image: url(/img/email.png);
+    background-image: url(img/email.png);
 }
 
 .information .localizacao::before {
-    background-image: url(/img/localizacao.png);
+    background-image: url(img/localizacao.png);
 }
 
 .information .perfil::before {
-    background-image: url(/img/perfil.png);
+    background-image: url(img/perfil.png);
 }
 
 .information .linkedin::before {
-    background-image: url(/img/linkedin.png);
+    background-image: url(img/linkedin.png);
 }
 
 .information .whatsapp::before {
-    background-image: url(/img/whatsapp.png);
+    background-image: url(img/whatsapp.png);
 }
 
 @media only screen and (min-width: 768px) {

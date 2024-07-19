@@ -44,7 +44,7 @@
     height: 1.5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/img/seta.png);
+    background-image: url(img/seta.png);
     transition: .25s;
 }
 
